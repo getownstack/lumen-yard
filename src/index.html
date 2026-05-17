@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lumen Yard</title>
+  <meta name="description" content="A calm static demo site deployed by Ownstack.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="Lumen Yard home">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span>Lumen Yard</span>
+    </a>
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="#spaces">Spaces</a>
+      <a href="#visits">Visits</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="page-title">
+      <img class="hero-image" src="assets/courtyard.png" alt="A warmly lit modern courtyard garden at dusk">
+      <div class="hero-shade" aria-hidden="true"></div>
+      <div class="hero-content">
+        <p class="eyebrow">Courtyard studio</p>
+        <h1 id="page-title">Lumen Yard</h1>
+        <p class="hero-copy">Quiet outdoor rooms shaped by light, planting, and simple materials.</p>
+        <a class="hero-action" href="#spaces">View spaces</a>
+      </div>
+    </section>
+
+    <section class="section" id="spaces" aria-labelledby="spaces-title">
+      <div class="section-heading">
+        <p class="eyebrow dark">Featured spaces</p>
+        <h2 id="spaces-title">Small places, considered carefully.</h2>
+      </div>
+      <div class="space-grid">
+        <article class="space-card">
+          <span class="space-kicker">01</span>
+          <h3>Evening patios</h3>
+          <p>Warm paths, layered planting, and seating that keeps the night gentle.</p>
+        </article>
+        <article class="space-card">
+          <span class="space-kicker">02</span>
+          <h3>Garden entries</h3>
+          <p>Thresholds that feel clear, welcoming, and settled into the site.</p>
+        </article>
+        <article class="space-card">
+          <span class="space-kicker">03</span>
+          <h3>Quiet corners</h3>
+          <p>Compact places for a bench, a book, and the last light of the day.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="visit-band" id="visits" aria-labelledby="visits-title">
+      <div>
+        <p class="eyebrow dark">Open this week</p>
+        <h2 id="visits-title">Visit the yard before sunset.</h2>
+      </div>
+      <p>Wednesday to Sunday, 4 PM to 8 PM. Walk-ins welcome.</p>
+    </section>
+  </main>
+
+  <footer class="footer" id="contact">
+    <span>Lumen Yard</span>
+    <span>hello@lumenyard.example</span>
+  </footer>
+</body>
+</html>
