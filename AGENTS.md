@@ -13,6 +13,7 @@ This repo should demonstrate the application contract expected by `ownstack-clus
 - A tiny `Jenkinsfile`.
 - A Dockerfile at `infrastructure/<app-id>/Dockerfile`.
 - A Helm chart at `infrastructure/<app-id>/helm`.
+- Optional `infrastructure/<app-id>/before-deployment.sh` support exists in the shared pipeline, but Lumen Yard does not need one.
 - A static app that listens on port `80`.
 - No credentials, backend calls, database, or external services.
 
