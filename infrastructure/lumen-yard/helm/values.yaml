@@ -1,1 +1,2 @@
-url: demo.perfectalgorithms.com
+# Published at <id>.<domain>, for example lumen-yard.example.com, using the
+# domain from your ownstack.yaml. Set url: here to use a different host.
