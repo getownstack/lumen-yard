@@ -44,11 +44,8 @@ The Ownstack shared pipeline expects:
 - Chart entrypoint: `templates/app.yaml`
 - Helm helper: `{{ include "public-url-application" . }}`
 
-Current default hostname:
-
-```text
-demo.perfectalgorithms.com
-```
+Default hostname: `lumen-yard.<domain>`, derived by the Ownstack Helm library
+from the `domain` value the pipeline sets. Do not hardcode a customer host.
 
 ## Change Guidelines
 
