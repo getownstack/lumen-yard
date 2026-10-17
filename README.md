@@ -49,8 +49,6 @@ The app ID is:
 lumen-yard
 ```
 
-The default Helm hostname is:
-
-```text
-demo.perfectalgorithms.com
-```
+The app is published at `lumen-yard.<your domain>`: the Ownstack pipeline
+passes the stack's domain to the chart. Set `url:` in
+`infrastructure/lumen-yard/helm/values.yaml` to use another host.
