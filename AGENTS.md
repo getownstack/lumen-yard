@@ -19,7 +19,7 @@ This repo should demonstrate the application contract expected by `ownstack-clus
 
 The app ID is `lumen-yard`.
 
-Generated customer copies should remain ordinary application repos: small, private by default, and compatible with the shared Jenkins pipeline library without extra setup.
+Generated customer copies should remain ordinary application repos: small, private by default, and compatible with the Ownstack pipelines without extra setup.
 
 ## Runtime
 

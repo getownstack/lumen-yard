@@ -5,7 +5,7 @@ Lumen Yard is the neutral static demo app for Ownstack.
 It exists to prove the Ownstack DevOps path without depending on an external API, backend service, credentials, or database. The app is a small Nginx-served static site that exercises the same pipeline contract a real customer application would use:
 
 ```text
-Jenkinsfile -> Docker build -> Harbor push -> Helm deploy -> Traefik ingress
+CI pipeline -> Docker build -> registry push -> Helm deploy -> Traefik ingress
 ```
 
 ## Local Preview
